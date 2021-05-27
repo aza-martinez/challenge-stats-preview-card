@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+:root {
+  --color-very-dark-blue: hsl(233, 47%, 7%);
+  --color-dark-blue: hsl(244, 38%, 16%);
+  --color-soft-violet: hsl(233, 47%, 7%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-white-paragraph: hsla(0, 0%, 100%, 0.75);
+  --color-white-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+html {
+  font-size: 15px;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  box-sizing: border-box;
+}
