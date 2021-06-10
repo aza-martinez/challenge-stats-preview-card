@@ -6,8 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge</title>
     <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
-    <h1>Hola Mundo</h1>
+    <main class="container">
+      <article class="card">
+        <div class="card__header">
+          <div class="overlay"></div>
+          <picture class="card__header-img">
+            <source
+              srcset="/assets/images/image-header-mobile.jpg"
+              media="(max-width: 1110px)"
+            />
+            <img
+              src="/assets/images/image-header-desktop.jpg"
+              alt="image header"
+            />
+          </picture>
+        </div>
+
+        <div class="card__body">
+          <div class="card__body-content">
+            <h1 class="card__title">
+              Get <span>insights</span> that help your business grow.
+            </h1>
+            <p class="card__text">
+              Discover the benefit of data analytics and make better decisions
+              regarding revenue, customer experience and overall efficiency.
+            </p>
+          </div>
+          <div class="stats">
+            <div class="stats__item">
+              <h3 class="stats__stat">10k+</h3>
+              <span class="stats__description">COMPANIES</span>
+            </div>
+            <div class="stats__item">
+              <h3 class="stats__stat">314</h3>
+              <span class="stats__description">TEMPLATES</span>
+            </div>
+            <div class="stats__item">
+              <h3 class="stats__stat">12M+</h3>
+              <span class="stats__description">QUERIES</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
